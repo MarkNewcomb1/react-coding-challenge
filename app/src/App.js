@@ -1,33 +1,19 @@
 import React from 'react';
 import { BrowserRouter as Router,
 Switch,
-Route,
-Link
+Route
 } from 'react-router-dom';
 
+import Header from './components/Header';
 import Home from './components/Home';
 import Series from './components/Series';
 import Movies from './components/Movies';
+import Footer from './components/Footer';
 
 function App() {
   return (
 <Router>
-  <div>
-    <nav>
-      <ul>
-        <li>
-          <Link to='/'>Home</Link>
-        </li>
-        <li>
-          <Link to='/series'>Series</Link>
-        </li>
-        <li>
-          <Link to='/movies'>Movies</Link>
-        </li>
-      </ul>
-    </nav>
-  </div>
-
+    <Header />
   <Switch>
     <Route path='/' exact>
       <Home />
@@ -39,6 +25,7 @@ function App() {
       <Movies />
     </Route>
   </Switch>
+  <Footer />
 </Router>
   );
 }
