@@ -39,6 +39,20 @@
 
 /* My Css */
 
+.header {
+  background-color: #047EFE;
+  padding: 1rem 4rem;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header h1 {
+  margin: 0;
+}
+
 .content {
   min-height: 74vh;
 }
