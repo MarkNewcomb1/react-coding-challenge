@@ -78,6 +78,27 @@ figcaption {
   font-size: 1.1rem;
 }
 
+.inside-component {
+  padding: 0 3.5rem;
+}
+
+.inside-component.movie-and-series {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.card {
+  flex: 0 0 150px;
+  padding: .25rem;
+}
+
+.card p {
+  margin: 0 0 .5rem;
+}
+
+.card img {
+  max-width: 100%;
+}
 /* Footer Stuff */
 
 footer {
