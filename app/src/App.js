@@ -4,6 +4,7 @@ Switch,
 Route
 } from 'react-router-dom';
 
+import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import Series from './components/Series';
@@ -14,6 +15,7 @@ function App() {
   return (
 <Router>
     <Header />
+    <div className="content">
   <Switch>
     <Route path='/' exact>
       <Home />
@@ -25,6 +27,7 @@ function App() {
       <Movies />
     </Route>
   </Switch>
+  </div>
   <Footer />
 </Router>
   );
