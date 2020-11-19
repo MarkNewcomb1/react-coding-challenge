@@ -57,6 +57,29 @@
   min-height: 74vh;
 }
 
+.inside-component a {
+  display: inline-block;
+}
+figure {
+  position: relative;
+  background-color: #1E1E1E;
+}
+
+figure img {
+  width: 150px;
+  height: 140px;
+}
+
+figcaption {
+  color: #fff;
+  position: absolute;
+  bottom: 56px;
+  left: 45px;
+  font-size: 1.1rem;
+}
+
+/* Footer Stuff */
+
 footer {
   padding: 4rem;
   padding-bottom: 2rem;
